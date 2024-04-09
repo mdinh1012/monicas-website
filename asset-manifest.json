@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/monicas-website/static/css/main.049b7c11.css",
+    "main.js": "/monicas-website/static/js/main.f1349fc1.js",
+    "index.html": "/monicas-website/index.html",
+    "main.049b7c11.css.map": "/monicas-website/static/css/main.049b7c11.css.map",
+    "main.f1349fc1.js.map": "/monicas-website/static/js/main.f1349fc1.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.049b7c11.css",
+    "static/js/main.f1349fc1.js"
+  ]
+}
