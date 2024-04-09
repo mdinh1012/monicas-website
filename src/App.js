@@ -31,7 +31,7 @@ function App() {
           <p>I'm Monica, a passionate explorer of the world, from cuisine to culture. Here's a glimpse into my life and what I love to do.
             I am currently a 4th year student at The University of Washington in the CSSE program.
           </p>
-          <img src="/monica.jpg" alt="Monica Dinh" width={250} height={300} />
+          <img src="/monica" alt="Monica Dinh" width={250} height={300} />
         </section>
         <section>
           <h2>Things I enjoy:</h2>
