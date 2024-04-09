@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/monicas-website/static/css/main.049b7c11.css",
-    "main.js": "/monicas-website/static/js/main.c66f0652.js",
+    "main.js": "/monicas-website/static/js/main.fe5a03f3.js",
     "index.html": "/monicas-website/index.html",
     "main.049b7c11.css.map": "/monicas-website/static/css/main.049b7c11.css.map",
-    "main.c66f0652.js.map": "/monicas-website/static/js/main.c66f0652.js.map"
+    "main.fe5a03f3.js.map": "/monicas-website/static/js/main.fe5a03f3.js.map"
   },
   "entrypoints": [
     "static/css/main.049b7c11.css",
-    "static/js/main.c66f0652.js"
+    "static/js/main.fe5a03f3.js"
   ]
 }
