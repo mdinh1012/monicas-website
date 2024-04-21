@@ -6,7 +6,7 @@ import ThingsToRead from './ThingsToRead'; // Ensure this is the correct path
 
 function App() {
   return (
-    <Router>
+    <Router basename = "/monicas-website">
       <NavBar />
       <Routes> {/* Routes should wrap all Route components */}
         <Route path="/" element={<Home />} />  {/* Specify path="/" for Home */}
