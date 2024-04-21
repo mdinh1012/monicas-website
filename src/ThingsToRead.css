@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+
+.ThingsToReadContainer {
+    text-align: center;  /* Center align the text */
+    padding: 20px;  /* More padding for a spacious look */
+    max-width: 600px;  /* Limiting width for better readability */
+    margin: auto;  /* Center the entire container */
+    font-family: 'Roboto', sans-serif; /* Modern, clean font */
+}
+
+.TitleContainer, .ListContainer {
+    display: block;
+    margin: 20px auto;  /* Increased margin and auto for better spacing and centering */
+}
+
+.ThingsToReadTitle {
+    color: #333;  /* Softer color for the text */
+    border-bottom: 2px solid #333;  /* Simpler border under the title */
+    padding: 5px 0;  /* Less padding, only vertical */
+    font-size: 24px;  /* Larger font size */
+    margin-bottom: 20px;  /* Space before the list starts */
+}
+
+.ThingsToReadList {
+    max-width: 100%;  /* Full width within the container */
+    padding: 0;
+    list-style: none;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);  /* Subtle shadow instead of a border */
+    display: inline-block;
+}
+
+.ThingsToReadList li {
+    display: block;
+    background-color: #ffffff;
+    padding: 12px 20px;  /* More generous padding */
+    color: #333;
+    text-decoration: none;
+    transition: all 0.3s;  /* Smooth transition for all changes */
+    margin: 8px 0;  /* Smaller vertical margin */
+    border-radius: 4px;
+}
+
+.ThingsToReadList li:hover, .ThingsToReadList li:focus-within {
+    background-color: #FF95DA ;  /* A vibrant accent color for hover */
+    color: #ffffff;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.15);  /* Stronger shadow on hover */
+}
+
+.ThingsToReadList a {
+    color: inherit;  /* Ensures links use the li color */
+    text-decoration: none;  /* No underline */
+}
+
+.ThingsToReadList a:focus {
+    outline: none;
+    box-shadow: 0 0 0 2px #4CAF50;  /* Focus ring around the links */
+}

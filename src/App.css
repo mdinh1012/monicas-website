@@ -1,8 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
 
-/* App.css */
 
-body {
-  background-color: #F8ADDE; 
+.App {
+  text-align: center;  /* Aligning text to center for a modern look */
+  padding: 20px;
+  font-family: 'Roboto', sans-serif;  /* Clean and modern font */
+  background: #f8f9fa;  /* Light and neutral background color */
 }
 
+.WelcomeMessage, .ShortNarrative {
+  margin-bottom: 30px;  /* Increase spacing for better readability */
+  color: #343a40;  /* Darker text for better contrast */
+}
 
+.Picture img {
+  display: block;
+  margin: 0 auto;  /* Center the image */
+  max-width: 80%;  /* Responsive image sizing */
+  border-radius: 10px;  /* Soft rounded corners for images */
+}
+
+.List {
+  margin-top: 30px;
+  background: #ffffff;  /* Subtle background for the list */
+  padding: 20px;
+  border-radius: 8px;  /* Rounded corners for list container */
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);  /* Adding shadow for depth */
+}
+
+button {
+  padding: 12px 24px;
+  background-color: #007bff;  /* Bright blue for primary actions */
+  color: white;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  margin-top: 20px;
+  transition: background-color 0.3s;  /* Smooth transition for button interaction */
+}
+
+button:hover {
+  background-color: #0056b3;  /* Darker blue on hover */
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+  transition: color 0.3s;  /* Smooth color transition on hover */
+}
+
+.App-link:hover {
+  color: #409ed2;  /* Lighter blue when hovered */
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
