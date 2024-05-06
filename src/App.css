@@ -1,46 +1,47 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
 
-
 .App {
-  text-align: center;  /* Aligning text to center for a modern look */
+  text-align: center;
   padding: 20px;
-  font-family: 'Roboto', sans-serif;  /* Clean and modern font */
-  background: #f8f9fa;  /* Light and neutral background color */
+  font-family: 'Roboto', sans-serif;
+  background: #f0f0f0;  /* Lighter background color for better contrast */
 }
 
 .WelcomeMessage, .ShortNarrative {
-  margin-bottom: 30px;  /* Increase spacing for better readability */
-  color: #343a40;  /* Darker text for better contrast */
+  margin-bottom: 30px;
+  color: #000000;  /* Darker gray text for better contrast */
 }
 
 .Picture img {
   display: block;
-  margin: 0 auto;  /* Center the image */
-  max-width: 80%;  /* Responsive image sizing */
-  border-radius: 10px;  /* Soft rounded corners for images */
+  margin: 0 auto;
+  max-width: 80%;
+  border-radius: 10px;
+  border: 2px solid #000000; /* Dark border for better contrast */
 }
 
 .List {
   margin-top: 30px;
-  background: #ffffff;  /* Subtle background for the list */
+  background: #ffffff;
   padding: 20px;
-  border-radius: 8px;  /* Rounded corners for list container */
-  box-shadow: 0 4px 8px rgba(0,0,0,0.1);  /* Adding shadow for depth */
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  color: #2e2e2e; /* Darker text for contrast */
 }
 
 button {
   padding: 12px 24px;
-  background-color: #007bff;  /* Bright blue for primary actions */
+  background-color: #0053a1; /* Darker blue for contrast */
   color: white;
   border: none;
   border-radius: 8px;
   cursor: pointer;
   margin-top: 20px;
-  transition: background-color 0.3s;  /* Smooth transition for button interaction */
+  transition: background-color 0.3s;
 }
 
 button:hover {
-  background-color: #0056b3;  /* Darker blue on hover */
+  background-color: #003d78; /* Even darker blue on hover */
 }
 
 .App-logo {
@@ -55,23 +56,23 @@ button:hover {
 }
 
 .App-header {
-  background-color: #282c34;
+  background-color: #1d1f24; /* Darker background */
   min-height: 100vh;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   font-size: calc(10px + 2vmin);
-  color: white;
+  color: #f0f0f0; /* Lighter text color for contrast */
 }
 
 .App-link {
-  color: #61dafb;
-  transition: color 0.3s;  /* Smooth color transition on hover */
+  color: #1a8bc6; /* A more accessible blue */
+  transition: color 0.3s;
 }
 
 .App-link:hover {
-  color: #409ed2;  /* Lighter blue when hovered */
+  color: #0b6ea0; /* Darker shade of blue when hovered */
 }
 
 @keyframes App-logo-spin {

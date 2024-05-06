@@ -1,58 +1,60 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
 
-
 .ThingsToReadContainer {
-    text-align: center;  /* Center align the text */
-    padding: 20px;  /* More padding for a spacious look */
-    max-width: 600px;  /* Limiting width for better readability */
-    margin: auto;  /* Center the entire container */
-    font-family: 'Roboto', sans-serif; /* Modern, clean font */
+    text-align: center;
+    padding: 20px;
+    max-width: 600px;
+    margin: auto;
+    font-family: 'Roboto', sans-serif;
+    background-color: #f9f9f9; /* Light background for contrast */
+    border-radius: 8px; /* Rounded corners */
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1); /* Subtle shadow for depth */
 }
 
 .TitleContainer, .ListContainer {
-    display: block;
-    margin: 20px auto;  /* Increased margin and auto for better spacing and centering */
+    margin: 20px auto;
 }
 
 .ThingsToReadTitle {
-    color: #333;  /* Softer color for the text */
-    border-bottom: 2px solid #333;  /* Simpler border under the title */
-    padding: 5px 0;  /* Less padding, only vertical */
-    font-size: 24px;  /* Larger font size */
-    margin-bottom: 20px;  /* Space before the list starts */
+    color: #2e2e2e; /* Darker text color for better contrast */
+    border-bottom: 2px solid #2e2e2e;
+    padding: 5px 0;
+    font-size: 24px;
+    margin-bottom: 20px;
 }
 
 .ThingsToReadList {
-    max-width: 100%;  /* Full width within the container */
+    width: 100%;
     padding: 0;
     list-style: none;
-    box-shadow: 0 2px 5px rgba(0,0,0,0.1);  /* Subtle shadow instead of a border */
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
     display: inline-block;
 }
 
 .ThingsToReadList li {
     display: block;
     background-color: #ffffff;
-    padding: 12px 20px;  /* More generous padding */
-    color: #333;
+    padding: 12px 20px;
+    color: #2e2e2e;
     text-decoration: none;
-    transition: all 0.3s;  /* Smooth transition for all changes */
-    margin: 8px 0;  /* Smaller vertical margin */
+    transition: all 0.3s;
+    margin: 8px 0;
     border-radius: 4px;
 }
 
 .ThingsToReadList li:hover, .ThingsToReadList li:focus-within {
-    background-color: #FF95DA ;  /* A vibrant accent color for hover */
+    background-color: #004A80; /* Darker blue for better contrast */
     color: #ffffff;
-    box-shadow: 0 4px 8px rgba(0,0,0,0.15);  /* Stronger shadow on hover */
+    box-shadow: 0 4px 8px rgba(0,0,0,0.15);
 }
 
 .ThingsToReadList a {
-    color: inherit;  /* Ensures links use the li color */
-    text-decoration: none;  /* No underline */
+    color: inherit;
+    text-decoration: none;
 }
 
 .ThingsToReadList a:focus {
-    outline: none;
-    box-shadow: 0 0 0 2px #4CAF50;  /* Focus ring around the links */
+    outline: 3px solid #4CAF50; /* High contrast outline for focused links */
+    outline-offset: 2px; /* Add some space around the focus outline */
+    border-radius: 4px; /* Rounded corners */
 }

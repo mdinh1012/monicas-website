@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import './App.css';
 import myImage from './myDOGS.png';
-import { Link } from 'react-router-dom' ;
+
 
 function Home() {
   const [items, setItems] = useState([
