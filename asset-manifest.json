@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.css": "/monicas-website/static/css/main.6ba4477a.css",
+    "main.css": "/monicas-website/static/css/main.7a33a26b.css",
     "main.js": "/monicas-website/static/js/main.64a505e0.js",
     "static/media/myDOGS.png": "/monicas-website/static/media/myDOGS.fda5bc17cd30a8a3a036.png",
     "index.html": "/monicas-website/index.html",
-    "main.6ba4477a.css.map": "/monicas-website/static/css/main.6ba4477a.css.map",
+    "main.7a33a26b.css.map": "/monicas-website/static/css/main.7a33a26b.css.map",
     "main.64a505e0.js.map": "/monicas-website/static/js/main.64a505e0.js.map"
   },
   "entrypoints": [
-    "static/css/main.6ba4477a.css",
+    "static/css/main.7a33a26b.css",
     "static/js/main.64a505e0.js"
   ]
 }
